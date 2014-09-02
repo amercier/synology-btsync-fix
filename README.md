@@ -1,4 +1,4 @@
-synology-btsync-fix (tested with btsync *1.3.106-2*)
+synology-btsync-fix
 ===================
 
 BitTorrent's Sync service (btsync) is a great tool which, in combination with a Synology allows you doing fancy things. Unfortunately the people behind the Synology community package didn't put as much love into it as it would deserve.
@@ -67,3 +67,12 @@ As soon as a new update for the BitTorrent Sync package will be available, the m
 Another thing that could happen is a permission reset on the `/usr/local/btsync/var/`-folder. It depends on whether the update will remove and re-create this folder or just leave it as. However, simply reset the permissions of this folder as shown before and everything should be okay again.
 
 If the service still won't start, try launching it through the root-SSH console, by simply running `./start-stop-status start` within the `/var/packages/btsync/scripts/` directory and see what happens.
+
+Compatibility
+-------------
+This modification has been tested with the following versions of the Bittorrent Sync package for Synology:
+
+- 1.3.106-2
+- 1.4.72-4
+
+Feel free to test it with other versions yourself and report back, if it works. Always back up your files before testing!
