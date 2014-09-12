@@ -74,5 +74,6 @@ This modification has been tested with the following versions of the Bittorrent 
 
 - 1.3.106-2
 - 1.4.72-4
+- 1.4.75-5
 
 Feel free to test it with other versions yourself and report back, if it works. Always back up your files before testing!
