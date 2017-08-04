@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Package
-PACKAGE="btsync"
+PACKAGE="bittorrentsync"
 DNAME="BitTorrent Sync"
 
 # Others
